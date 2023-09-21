@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>eduGuardian</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+
+<body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <h1>eduGuardian<span>.</span></h1>
+                <span class="alpha-tag">Alpha</span> <!-- Add this line -->
+            </a>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                </ul>
+            </nav><!-- .navbar -->
+            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+        </div>
+    </header><!-- End Header -->
+    
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero">
+        <div class="container position-relative">
+            <div class="row gy-5" data-aos="fade-in">
+                <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+                    <h2 style="color: rgb(202, 163, 116);">eduGuardian <span style="color: rgb(255, 255, 255);">by Circular Linked List</span></h2>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <a href="#" class="btn-get-started" onclick="return openPopup();">SIH 2023 Synopsis</a>
+                    </div>
+                    <!-- Add some space below the button using CSS -->
+                    <style>
+                        .btn-get-started {
+                            margin-bottom: 20px; /* Adjust the margin-top to add space */
+                        }
+                    </style>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2">
+                    <img src="assets/img/hero-img.svg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- End Hero Section -->
+    <div class="container">
+        <form method="post" class="rounded p-4" id="search-form">
+            <h1 class="mb-4">Analyse Students Data</h1>
+            <div class="form-group">
+                <label for="keyword" class="font-weight-bold">Number of Students:</label>
+                <input type="number" id="keyword" name="keyword" class="form-control" placeholder="Enter number">
+            </div>
+            <div class="form-group">
+                <label class="font-weight-bold">Area / Location:</label>
+                <div class="form-check">
+                    <input type="radio" id="Urban" name="location" value="Urban" class="form-check-input">
+                    <label for="Urban" class="form-check-label">Urban</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="Rural" name="location" value="Rural" class="form-check-input">
+                    <label for="Rural" class="form-check-label">Rural</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="font-weight-bold">Mid-Day Meal Dependency:</label>
+                <div class="form-check">
+                    <input type="radio" id="MiddayMeal" name="meal_dependency" value="Yes" class="form-check-input">
+                    <label for="MiddayMeal" class="form-check-label">Yes</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="NoMiddayMeal" name="meal_dependency" value="No" class="form-check-input">
+                    <label for="NoMiddayMeal" class="form-check-label">No</label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="font-weight-bold">Social Economic Status:</label>
+                <div class="form-check">
+                    <input type="radio" id="High" name="economic_status" value="High" class="form-check-input">
+                    <label for="High" class="form-check-label">High</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="Low" name="economic_status" value="Low" class="form-check-input">
+                    <label for="Low" class="form-check-label">Low</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="Medium" name="economic_status" value="Medium" class="form-check-input">
+                    <label for="Medium" class="form-check-label">Medium</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="font-weight-bold">Gender:</label>
+                <div class="form-check">
+                    <input type="radio" id="Male" name="gender" value="Male" class="form-check-input">
+                    <label for="Male" class="form-check-label">Male</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" id="Female" name="gender" value="Female" class="form-check-input">
+                    <label for="Female" class="form-check-label">Female</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Analyse</button>
+        </form>
+    </div>
+    <!-- upto this -->
+<!-- dont edit this part -->
+    <section>
+        <div class="container">
+            <div class="row tm-content-row">
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
+                    <div class="tm-bg-primary-dark tm-block">
+                        <h2 class="tm-block-title chart-text-color">Dropout Rate Analysis</h2>
+                        <canvas id="lineChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
+                    <div class="tm-bg-primary-dark tm-block">
+                        <h2 class="tm-block-title chart-text-color">Standard wise Expected Output</h2>
+                        <canvas id="barChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
+                    <div class="tm-bg-primary-dark tm-block tm-block-taller">
+                        <h2 class="tm-block-title chart-text-color">Mid-day Meal Availability</h2>
+                        <div id="pieChartContainer">
+                            <canvas id="pieChart" class="chartjs-render-monitor"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-block-col">
+                    <div class="tm-bg-primary-dark tm-block tm-block-taller">
+                        <h2 class="tm-block-title chart-text-color">Socio-Economic Analysis</h2>
+                        <div id="pieChartContainer">
+                            <canvas id="SocialpieChart" class="chartjs-render-monitor"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main id="main">
+        <!-- ======= Our Team Section ======= -->
+        <section id="team" class="team">
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <h1>Our Team</h1>
+                    <p>The team that is working on this project, with a aim to bring down early dropout rate in our country.</p>
+                </div>
+
+                <div class="row gy-4">
+
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+                        <div class="member">
+                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                            <h4>Sourajit Maity</h4>
+                            <span>Our Guiding Mentor</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="500">
+                        <div class="member">
+                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                            <h4>Somnath Pramanik (GigaChad)</h4>
+                            <span>Worked on the data modelling</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member">
+                            <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                            <h4>Ayush Majumdar</h4>
+                            <span>Worked on the backend & frontend integration</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+                        <div class="member">
+                            <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                            <h4>Ayush Raj</h4>
+                            <span>Worked on the backend technologies</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div><!-- End Team Member -->
+
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member">
+                            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                            <h4>Somrit Dasgupta</h4>
+                            <span>Worked on API intergrations and Data management</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Team Member -->
+
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member">
+                            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                            <h4>Siuli Mandal</h4>
+                            <span>Working on frontend webUI</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Team Member -->
+
+                    <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member">
+                            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                            <h4>Kumari Shakshi</h4>
+                            <span>Working on frontend and Mobile UI integration</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Team Member -->
+                </div>
+            </div>
+        </section><!-- End Our Team Section -->
+    </main><!-- End #main --
+   
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/Chart.min.js"></script>
+    <script src="assets/js/tooplate-scripts.js"></script>
+
+    <script>
+        Chart.defaults.global.defaultFontColor = 'white';
+        let ctxLine,
+            ctxBar,
+            ctxPie,
+            optionsLine,
+            optionsBar,
+            optionsPie,
+            configLine,
+            configBar,
+            configPie,
+            lineChart;
+        barChart, pieChart;
+        $(function() {
+            drawLineChart();
+            drawBarChart();
+            drawPieChart();
+            $(window).resize(function() {
+                updateLineChart();
+                updateBarChart();
+            });
+        });
+        function openPopup() {
+            // Define the PDF URL
+            var pdfURL = 'https://www.canva.com/design/DAFu_eh2eEY/9waHFPB9D5O9EChXyOTNjQ/edit?utm_content=DAFu_eh2eEY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton';
+            // Open a new window with the PDF
+            var newWindow = window.open(pdfURL, 'PDFPopup', 'width=600,height=400');            
+            // Focus on the new window (optional)
+            if (window.focus) {
+                newWindow.focus();
+            }
+            return false;
+        }
+    </script>
+
+<footer class="bg-dark text-center fw-bold text-white">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.237);">
+      2023 © <span style="color: rgb(202, 163, 116);">eduGuardian</span> | Developed by Circular Linked List
+    </div>
+  </footer>
+  
+</body>
+</html>

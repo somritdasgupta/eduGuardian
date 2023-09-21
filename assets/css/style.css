@@ -1,0 +1,97 @@
+.tm-content-row {
+  margin: 0 -15px;
+}
+
+.tm-block-col {
+  padding: 10px;
+}
+
+body {
+  background-color: #ffffff;
+}
+.container {
+  margin-top: 40px;
+}
+.rounded {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.font-weight-bold {
+  font-weight: bold;
+}
+.form-check-label {
+  font-weight: bold;
+  color: #555;
+}
+.btn-primary {
+  background-color: #000b35;
+  border-color: #007bff;
+  font-weight: bold;
+  font-size: large;
+  transition: background-color 0.3s ease;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+.form-control {
+  font-weight: bold;
+}
+.btn-icon {
+  margin-right: 10px;
+}
+
+.tm-bg-primary-dark {
+  background-color: var(--color-default);
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.chart-text-color {
+  color: white;
+}
+
+.tm-block-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+canvas {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.tm-block-taller {
+  min-height: 400px;
+}
+
+#pieChartContainer {
+  text-align: center;
+}
+
+#pieChart {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,2002 @@
+[
+    {
+        "StudentID": 1,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 88.8980846105,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 2,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 71.2308944976,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 3,
+        "Gender": "Female",
+        "Age": 22,
+        "Grade_Average": 60.9726386573,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 4,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 85.8188918363,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 5,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 67.0844271763,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 6,
+        "Gender": "Male",
+        "Age": 22,
+        "Grade_Average": 97.6183433741,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 7,
+        "Gender": "Female",
+        "Age": 22,
+        "Grade_Average": 98.1571430801,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 8,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 96.5945756088,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 9,
+        "Gender": "Female",
+        "Age": 22,
+        "Grade_Average": 74.8063480102,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 10,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 60.6182646612,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 11,
+        "Gender": "Female",
+        "Age": 22,
+        "Grade_Average": 97.1327425035,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 12,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 77.1273659327,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 13,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 98.6661927617,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 14,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 98.5447990836,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 15,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 94.1203782187,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 16,
+        "Gender": "Female",
+        "Age": 19,
+        "Grade_Average": 71.7779556828,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 17,
+        "Gender": "Male",
+        "Age": 19,
+        "Grade_Average": 75.4039091441,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 18,
+        "Gender": "Male",
+        "Age": 22,
+        "Grade_Average": 94.0454668607,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 19,
+        "Gender": "Male",
+        "Age": 23,
+        "Grade_Average": 72.6768802063,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 20,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 66.7797098674,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 21,
+        "Gender": "Male",
+        "Age": 22,
+        "Grade_Average": 82.2720504983,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 22,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 97.4461909664,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 23,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 87.841191867,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 24,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 82.8024468036,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 25,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 63.8870597508,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 26,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 84.600289068,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 27,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 99.6021540042,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 28,
+        "Gender": "Male",
+        "Age": 23,
+        "Grade_Average": 65.6033606095,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 29,
+        "Gender": "Male",
+        "Age": 23,
+        "Grade_Average": 80.7331860945,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 30,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 95.0949228771,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 31,
+        "Gender": "Female",
+        "Age": 19,
+        "Grade_Average": 89.6307447102,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 32,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 87.8806296398,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 33,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 88.0993633595,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 34,
+        "Gender": "Male",
+        "Age": 23,
+        "Grade_Average": 74.3796460488,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 35,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 71.7436737706,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 36,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 92.3744462191,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 37,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 92.4045357872,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 38,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 94.6828927432,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 39,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 96.5296221023,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 40,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 80.4536959544,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 41,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 80.0606517875,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 42,
+        "Gender": "Female",
+        "Age": 22,
+        "Grade_Average": 91.9318071587,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 43,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 85.9985572311,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 44,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 88.0786750903,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 45,
+        "Gender": "Male",
+        "Age": 23,
+        "Grade_Average": 91.8317067774,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 46,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 95.6002136727,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 47,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 73.5198062741,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 48,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 75.0233181056,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 49,
+        "Gender": "Male",
+        "Age": 22,
+        "Grade_Average": 63.7592775936,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 50,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 83.1312056398,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 51,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 61.4376909519,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 52,
+        "Gender": "Male",
+        "Age": 19,
+        "Grade_Average": 78.6239207253,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 53,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 81.7057853883,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 54,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 71.4616500851,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 55,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 83.6333304228,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 56,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 61.2200099976,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 57,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 61.49392755,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 58,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 92.9040224264,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 59,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 74.4076256565,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 60,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 65.0824205061,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 61,
+        "Gender": "Female",
+        "Age": 19,
+        "Grade_Average": 80.8897304022,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 62,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 90.7997421239,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 63,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 68.6328410999,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 64,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 84.9156190328,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 65,
+        "Gender": "Female",
+        "Age": 19,
+        "Grade_Average": 63.4138985998,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 66,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 62.0672688467,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 67,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 81.2541852627,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 68,
+        "Gender": "Female",
+        "Age": 22,
+        "Grade_Average": 81.6254048644,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 69,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 85.4971960599,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 70,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 89.0436533489,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 71,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 99.0340831785,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 72,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 80.652013932,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 73,
+        "Gender": "Female",
+        "Age": 19,
+        "Grade_Average": 72.9182589176,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 74,
+        "Gender": "Male",
+        "Age": 19,
+        "Grade_Average": 91.8074477907,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 75,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 70.8332900505,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 76,
+        "Gender": "Male",
+        "Age": 23,
+        "Grade_Average": 77.5588568282,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 77,
+        "Gender": "Male",
+        "Age": 22,
+        "Grade_Average": 63.1382552537,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 78,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 61.0140297366,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 79,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 98.5059365871,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 80,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 93.4392048205,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 81,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 87.8389682437,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 82,
+        "Gender": "Male",
+        "Age": 19,
+        "Grade_Average": 76.3581177766,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 83,
+        "Gender": "Female",
+        "Age": 22,
+        "Grade_Average": 66.9317728028,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 84,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 66.2574817068,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 85,
+        "Gender": "Female",
+        "Age": 19,
+        "Grade_Average": 70.0097159266,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 86,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 81.9690665882,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 87,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 88.583836908,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 88,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 86.4078950687,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 89,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 71.1973558778,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 90,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 98.1946112265,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 91,
+        "Gender": "Male",
+        "Age": 23,
+        "Grade_Average": 89.5158766678,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 92,
+        "Gender": "Male",
+        "Age": 22,
+        "Grade_Average": 82.1741621005,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 93,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 84.4688298494,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 94,
+        "Gender": "Male",
+        "Age": 19,
+        "Grade_Average": 76.7840024971,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 95,
+        "Gender": "Male",
+        "Age": 23,
+        "Grade_Average": 69.90923958,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 96,
+        "Gender": "Male",
+        "Age": 23,
+        "Grade_Average": 74.2389071461,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 97,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 90.3138444186,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 98,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 60.5757395452,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 99,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 64.6429056203,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 100,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 61.8401056809,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 101,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 61.6291520928,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 102,
+        "Gender": "Male",
+        "Age": 23,
+        "Grade_Average": 94.2184233604,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 103,
+        "Gender": "Male",
+        "Age": 22,
+        "Grade_Average": 88.1463143752,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 104,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 78.9669531635,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 105,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 63.913366426,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 106,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 79.6646350047,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 107,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 78.9388708312,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 108,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 66.9280747964,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 109,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 77.3540659695,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 110,
+        "Gender": "Female",
+        "Age": 19,
+        "Grade_Average": 75.9401893759,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 111,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 84.6340039221,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 112,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 85.4037460347,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 113,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 61.8121603909,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 114,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 74.9845045851,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 115,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 85.0343966286,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 116,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 80.1254503432,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 117,
+        "Gender": "Female",
+        "Age": 19,
+        "Grade_Average": 94.2595936475,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 118,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 86.3477452648,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 119,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 66.5173770833,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 120,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 62.822749896,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 121,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 85.6967711283,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 122,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 61.0604524217,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 123,
+        "Gender": "Male",
+        "Age": 19,
+        "Grade_Average": 83.4310232509,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 124,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 97.609209657,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 125,
+        "Gender": "Female",
+        "Age": 19,
+        "Grade_Average": 83.018967115,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 126,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 75.5267970483,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 127,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 85.7315287377,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 128,
+        "Gender": "Female",
+        "Age": 19,
+        "Grade_Average": 78.3301156197,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 129,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 81.8246715726,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 130,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 97.6585923511,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 131,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 75.444105512,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 132,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 98.447622553,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 133,
+        "Gender": "Female",
+        "Age": 19,
+        "Grade_Average": 96.2140256782,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 134,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 67.8316453916,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 135,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 62.774452035,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 136,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 64.0311200551,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 137,
+        "Gender": "Female",
+        "Age": 22,
+        "Grade_Average": 60.7288730261,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 138,
+        "Gender": "Female",
+        "Age": 22,
+        "Grade_Average": 63.7777184302,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 139,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 87.3202709367,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 140,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 62.8475459384,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 141,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 72.7590252118,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 142,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 93.7950124388,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 143,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 60.9308774294,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 144,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 92.5787393036,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 145,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 71.2741909909,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 146,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 64.7265931049,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 147,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 87.8694866146,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 148,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 85.1577138712,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 149,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 95.0988805411,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 150,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 89.4028417522,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 151,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 92.1392372154,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 152,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 71.2813829029,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 153,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 67.0975817512,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 154,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 90.0245900656,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 155,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 92.2733895707,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 156,
+        "Gender": "Male",
+        "Age": 23,
+        "Grade_Average": 99.62020568,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 157,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 76.5047070765,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 158,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 74.8807234317,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 159,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 91.0565184297,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 160,
+        "Gender": "Male",
+        "Age": 22,
+        "Grade_Average": 73.6321416101,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 161,
+        "Gender": "Female",
+        "Age": 19,
+        "Grade_Average": 97.2302930241,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 162,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 94.3365100737,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 163,
+        "Gender": "Male",
+        "Age": 19,
+        "Grade_Average": 77.159761095,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 164,
+        "Gender": "Male",
+        "Age": 19,
+        "Grade_Average": 90.0348427117,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 165,
+        "Gender": "Male",
+        "Age": 23,
+        "Grade_Average": 90.1817149634,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 166,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 64.1249547534,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 167,
+        "Gender": "Male",
+        "Age": 22,
+        "Grade_Average": 96.1021162672,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 168,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 80.2100948979,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 169,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 93.0582986443,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 170,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 72.8019840412,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 171,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 95.8209291398,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 172,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 75.5680671494,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 173,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 60.4335060592,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 174,
+        "Gender": "Male",
+        "Age": 22,
+        "Grade_Average": 96.2152790568,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 175,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 63.6514670714,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 176,
+        "Gender": "Male",
+        "Age": 20,
+        "Grade_Average": 72.7725455036,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 177,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 98.002478682,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 178,
+        "Gender": "Female",
+        "Age": 18,
+        "Grade_Average": 98.0242858775,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 179,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 82.9375155249,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 180,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 85.2734884868,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 181,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 77.9378208791,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 182,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 71.7284308679,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 183,
+        "Gender": "Male",
+        "Age": 23,
+        "Grade_Average": 73.1465818148,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 184,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 86.9007382431,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 185,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 90.0949811775,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 186,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 91.663161749,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 187,
+        "Gender": "Male",
+        "Age": 23,
+        "Grade_Average": 91.5847257118,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 188,
+        "Gender": "Female",
+        "Age": 22,
+        "Grade_Average": 63.6482441219,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 189,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 79.7768121881,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 190,
+        "Gender": "Male",
+        "Age": 23,
+        "Grade_Average": 62.3023504007,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 191,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 81.9811552929,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 192,
+        "Gender": "Female",
+        "Age": 20,
+        "Grade_Average": 77.6612200549,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 193,
+        "Gender": "Female",
+        "Age": 19,
+        "Grade_Average": 95.5081673103,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 194,
+        "Gender": "Female",
+        "Age": 22,
+        "Grade_Average": 74.0366005021,
+        "Socioeconomic_Status": "Low",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 195,
+        "Gender": "Female",
+        "Age": 23,
+        "Grade_Average": 64.6826806571,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 196,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 65.7196672821,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "Yes"
+    },
+    {
+        "StudentID": 197,
+        "Gender": "Male",
+        "Age": 21,
+        "Grade_Average": 90.4604252687,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 198,
+        "Gender": "Male",
+        "Age": 18,
+        "Grade_Average": 84.7287225327,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Urban",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 199,
+        "Gender": "Female",
+        "Age": 22,
+        "Grade_Average": 64.0449070449,
+        "Socioeconomic_Status": "High",
+        "Student_Area": "Rural",
+        "Dropout": "0",
+        "Midday_Meal": "No"
+    },
+    {
+        "StudentID": 200,
+        "Gender": "Female",
+        "Age": 21,
+        "Grade_Average": 63.3642722446,
+        "Socioeconomic_Status": "Medium",
+        "Student_Area": "Urban",
+        "Dropout": "1",
+        "Midday_Meal": "Yes"
+    }
+]
