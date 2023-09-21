@@ -4,7 +4,7 @@ $num_students = $_GET['keyword'];
 $Location = $_GET['Location'];
 $SocioEconomicStatus = $_GET['SocioEconomicStatus'];
 
-$pythonScript = "python C:\Projects\dropout\assets\script\script.py";
+$pythonScript = "python E:\dropout\assets\script\script.py";
 $descriptors = [
     0 => ['pipe', 'r'],
     1 => ['pipe', 'w'],
