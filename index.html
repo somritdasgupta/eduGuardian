@@ -127,6 +127,55 @@
                     <label for="Female" class="form-check-label">Female</label>
                 </div>
             </div>
+            <div class="form-group col-md-4">
+                <label for="inputState">State</label>
+                <select class="form-control" id="inputState">
+                                    <option value="SelectState">Select State</option>
+                                    <option value="Andra Pradesh">Andra Pradesh</option>
+                                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                    <option value="Assam">Assam</option>
+                                    <option value="Bihar">Bihar</option>
+                                    <option value="Chhattisgarh">Chhattisgarh</option>
+                                    <option value="Goa">Goa</option>
+                                    <option value="Gujarat">Gujarat</option>
+                                    <option value="Haryana">Haryana</option>
+                                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                    <option value="Jharkhand">Jharkhand</option>
+                                    <option value="Karnataka">Karnataka</option>
+                                    <option value="Kerala">Kerala</option>
+                                    <option value="Madya Pradesh">Madya Pradesh</option>
+                                    <option value="Maharashtra">Maharashtra</option>
+                                    <option value="Manipur">Manipur</option>
+                                    <option value="Meghalaya">Meghalaya</option>
+                                    <option value="Mizoram">Mizoram</option>
+                                    <option value="Nagaland">Nagaland</option>
+                                    <option value="Orissa">Orissa</option>
+                                    <option value="Punjab">Punjab</option>
+                                    <option value="Rajasthan">Rajasthan</option>
+                                    <option value="Sikkim">Sikkim</option>
+                                    <option value="Tamil Nadu">Tamil Nadu</option>
+                                    <option value="Telangana">Telangana</option>
+                                    <option value="Tripura">Tripura</option>
+                                    <option value="Uttaranchal">Uttaranchal</option>
+                                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                    <option value="West Bengal">West Bengal</option>
+                                    <option disabled style="background-color:#aaa; color:#fff">UNION Territories</option>
+                                    <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                    <option value="Chandigarh">Chandigarh</option>
+                                    <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
+                                    <option value="Daman and Diu">Daman and Diu</option>
+                                    <option value="Delhi">Delhi</option>
+                                    <option value="Lakshadeep">Lakshadeep</option>
+                                    <option value="Pondicherry">Pondicherry</option>
+                                  </select>
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputDistrict">Schools</label>
+                <select class="form-control" id="inputDistrict">
+                    <option value="">Select your school</option>
+                </select>
+              </div>
             <button type="submit" class="btn btn-primary btn-block">Analyse</button>
         </form>
     </div>
@@ -299,6 +348,13 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="assets/js/Chart.min.js"></script>
     <script src="assets/js/tooplate-scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
     <script>
         Chart.defaults.global.defaultFontColor = 'white';
@@ -333,6 +389,169 @@
             }
             return false;
         }
+
+var AndhraPradesh = ["Govt. High School, Anantapur", "Govt. Girls High School, Anantapur", "Govt. Boys High School, Anantapur", "Govt. Model High School, Anantapur", "Govt. High School, Chittoor", "Govt. Girls High School, Chittoor", "Govt. Boys High School, Chittoor", "Govt. Model High School, Chittoor", "Govt. High School, Kurnool", "Govt. Girls High School, Kurnool", "Govt. Boys High School, Kurnool", "Govt. Model High School, Kurnool", "Govt. High School, Guntur", "Govt. Girls High School, Guntur", "Govt. Boys High School, Guntur", "Govt. Model High School, Guntur", "Govt. High School, Nellore", "Govt. Girls High School, Nellore", "Govt. Boys High School, Nellore", "Govt. Model High School, Nellore", "Govt. High School, Vijayawada", "Govt. Girls High School, Vijayawada", "Govt. Boys High School, Vijayawada", "Govt. Model High School, Vijayawada", "Govt. High School, Visakhapatnam", "Govt. Girls High School, Visakhapatnam", "Govt. Boys High School, Visakhapatnam", "Govt. Model High School, Visakhapatnam", "Govt. High School, Kadapa", "Govt. Girls High School, Kadapa", "Govt. Boys High School, Kadapa", "Govt. Model High School, Kadapa", "Govt. High School, Prakasam", "Govt. Girls High School, Prakasam", "Govt. Boys High School, Prakasam", "Govt. Model High School, Prakasam", "Govt. High School, Krishna", "Govt. Girls High School, Krishna", "Govt. Boys High School, Krishna", "Govt. Model High School, Krishna", "Govt. High School, West Godavari", "Govt. Girls High School, West Godavari", "Govt. Boys High School, West Godavari", "Govt. Model High School, West Godavari", "Govt. High School, East Godavari", "Govt. Girls High School, East Godavari", "Govt. Boys High School, East Godavari", "Govt. Model High School, East Godavari"]
+var ArunachalPradesh = ["Government Higher Secondary School, Itanagar", "Government Girls Higher Secondary School, Itanagar", "Government Boys Higher Secondary School, Itanagar", "Government Model Higher Secondary School, Itanagar", "Government Higher Secondary School, Naharlagun", "Government Higher Secondary School, Doimukh", "Government Higher Secondary School, Nirjuli", "Government Higher Secondary School, Yupia", "Government Day Boarding Higher Secondary School, Itanagar", "Government Polytechnic, Itanagar", "Government Industrial Training Institute, Itanagar", "Jawahar Navodaya Vidyalaya, Itanagar", "Kendriya Vidyalaya, Itanagar", "Government Higher Secondary School, Pasighat", "Government Girls Higher Secondary School, Pasighat", "Government Model Higher Secondary School, Pasighat", "Government Day Boarding Higher Secondary School, Pasighat", "Jawahar Navodaya Vidyalaya, Pasighat", "Kendriya Vidyalaya, Pasighat", "Government Higher Secondary School, Tawang", "Government Girls Higher Secondary School, Tawang", "Government Model Higher Secondary School, Tawang", "Government Day Boarding Higher Secondary School, Tawang", "Jawahar Navodaya Vidyalaya, Tawang", "Kendriya Vidyalaya, Tawang", "Government Higher Secondary School, Bomdila", "Government Girls Higher Secondary School, Bomdila", "Government Model Higher Secondary School, Bomdila", "Government Day Boarding Higher Secondary School, Bomdila", "Jawahar Navodaya Vidyalaya, Bomdila", "Kendriya Vidyalaya, Bomdila", "Government Higher Secondary School, Ziro", "Government Higher Secondary School, Tezu", "Government Higher Secondary School, Khonsa", "Government Higher Secondary School, Roing", "Government Higher Secondary School, Daporijo", "Government Higher Secondary School, Along", "Government Higher Secondary School, Seppa", "Government Higher Secondary School, East Siang", "Government Higher Secondary School, West Siang", "Government Higher Secondary School, Upper Siang", "Government Higher Secondary School, Lower Siang", "Government Higher Secondary School, Kra Daadi", "Government Higher Secondary School, Kurung Kumey", "Government Higher Secondary School, Kamle", "Government Higher Secondary School, Lepa-Rada", "Government Higher Secondary School, Siang", "Government Higher Secondary School, Dibang", "Government Higher Secondary School, Tirap", "Government Higher Secondary School, Changlang", "Government Higher Secondary School, Lohit", "Government Higher Secondary School, Namsai", "Government Higher Secondary School, Papum Pare", "Government Higher Secondary School, East Kameng", "Government Higher Secondary School, West Kameng"];
+var Assam = ["Government Boys Higher Secondary School, Guwahati","Government Girls Higher Secondary School, Guwahati","Government B. Borooah Higher Secondary School, Guwahati","Government Cotton Collegiate School, Guwahati","Government Boys Higher Secondary School, Silchar","Government Girls Higher Secondary School, Silchar","Government B.N. College, Dibrugarh","Government Boys Higher Secondary School, Jorhat","Government Girls Higher Secondary School, Jorhat","Government Boys Higher Secondary School, Tezpur","Government Girls Higher Secondary School, Tezpur","Government Boys Higher Secondary School, Nalbari","Government Girls Higher Secondary School, Nalbari","Government Boys Higher Secondary School, Dhubri","Government Girls Higher Secondary School, Dhubri","Government Boys Higher Secondary School, Tinsukia","Government Girls Higher Secondary School, Tinsukia","Government Boys Higher Secondary School, Kokrajhar","Government Girls Higher Secondary School, Kokrajhar","Government Boys Higher Secondary School, Bongaigaon","Government Girls Higher Secondary School, Bongaigaon","Government Boys Higher Secondary School, Sivasagar","Government Girls Higher Secondary School, Sivasagar","Government Boys Higher Secondary School, Golaghat","Government Girls Higher Secondary School, Golaghat","Government Boys Higher Secondary School, Karbi Anglong","Government Girls Higher Secondary School, Karbi Anglong","Government Boys Higher Secondary School, Dima Hasao","Government Girls Higher Secondary School, Dima Hasao","Government Boys Higher Secondary School, Chirang","Government Girls Higher Secondary School, Chirang","Government Boys Higher Secondary School, Dhemaji","Government Girls Higher Secondary School, Dhemaji","Government Boys Higher Secondary School, Baksa","Government Girls Higher Secondary School, Baksa","Government Boys Higher Secondary School, Udalguri","Government Girls Higher Secondary School, Udalguri","Government Boys Higher Secondary School, Majuli","Government Girls Higher Secondary School, Majuli","Assam Chah Mazdoor Sramik Santha School, Guwahati","Don Bosco School, Guwahati","Springdale School, Guwahati","Royal Global School, Guwahati","Gyan Educational Institution, Guwahati","Sarala Birla Gyan Jyoti, Guwahati","Delhi Public School, Numaligarh","Assam Valley School, Sonapur","St. Xavier's School, Guwahati","Don Bosco School, Silchar","Springdale School, Silchar","St. Stephen's School, Silchar","Assam Don Bosco School, Tinsukia","Assam Rifles Public School, Tinsukia","Kendriya Vidyalaya, Guwahati","Kendriya Vidyalaya, Silchar","Kendriya Vidyalaya, Tinsukia","Navodaya Vidyalaya, Guwahati","Navodaya Vidyalaya, Silchar","Navodaya Vidyalaya, Tinsukia"];
+var Bihar=["Patna High School, Patna","Bihar Secondary School, Patna","Government High School, Lodipur","Government High School, Gaya","Government High School, Muzaffarpur","Government High School, Bhagalpur","Government High School, Darbhanga","Government High School, Arrah","Government High School, Katihar","Government High School, Purnia","Government High School, Samastipur","Government High School, Begusarai","Government High School, Chapra","Government High School, Mokama","Government High School, Munger","Government High School, Siwan","Government High School, Madhubani","Government High School, Sitamarhi","Government High School, Saharsa","Government High School, Aurangabad","Government High School, Rohtas","Government High School, Buxar","Government High School, Nawada","Government High School, Jamui","Government High School, Banka","Government High School, Kishanganj","Government High School, Gopalganj","Government High School, West Champaran","Government High School, East Champaran","Government High School, Sheohar","Government High School, Supaul","Government High School, Madhepura","Government High School, Khagaria","Government High School, Jehanabad","Government High School, Arwal","Government High School, Sheikhpura","Government High School, Nalanda","Government High School, Vaishali","Government High School, Bhojpur","Government High School, Saran","Government High School, Kaimur","Government High School, Lakhisarai","Government High School, Sheikhpura","Government High School, Saharsa","Government High School, Madhubani","Government High School, Sitamarhi","Government High School, Purnia","Government High School, Katihar","Government High School, Kishanganj","Government High School, Araria","Government High School, Madhepura","Government High School, Khagaria","Government High School, Samastipur","Government Girls High School, Patna City","Government Boys High School, Patna City","Government Senior Secondary School, Shastin Ghar, Patna","Government High School, Naubatpur, Patna","Government Girls High School, Bankipur, Patna"];
+var Chhattisgarh = ["Balod","Baloda Bazar","Balrampur","Bastar","Bemetara","Bijapur","Bilaspur","Dantewada","Dhamtari","Durg","Gariaband","Janjgir Champa","Jashpur","Kabirdham","Kanker","Kondagaon","Korba","Koriya","Mahasamund","Mungeli","Narayanpur","Raigarh","Raipur","Rajnandgaon","Sukma","Surajpur","Surguja"];
+var Goa = ["North Goa","South Goa"];
+var Gujarat=["Government Model School, Ahmedabad","Government Girls Higher Secondary School, Ahmedabad","Government Boys Higher Secondary School, Ahmedabad","Government Primary School, Sector 2-D, Gandhinagar","Government Primary School, Sector 7-G, Gandhinagar","Government Secondary School, Maninagar, Ahmedabad","Government Secondary School, Naranpura, Ahmedabad","Government Secondary School, Odhav, Ahmedabad","Government Secondary School, Vatva, Ahmedabad","Government Secondary School, Vejalpur, Ahmedabad","Government Secondary School, Sector 1, Gandhinagar","Government Secondary School, Sector 2, Gandhinagar","Government Secondary School, Sector 3, Gandhinagar","Government Secondary School, Sector 4, Gandhinagar","Government Secondary School, Sector 5, Gandhinagar","Government Secondary School, Sector 6, Gandhinagar","Government Secondary School, Sector 7, Gandhinagar","Government Secondary School, Sector 8, Gandhinagar","Government Secondary School, Sector 9, Gandhinagar","Government Secondary School, Sector 10, Gandhinagar","Government Boys High School, Rajkot","Government Girls High School, Rajkot","Government Secondary School No. 1, Rajkot","Government Secondary School No. 2, Rajkot","Government Secondary School No. 3, Rajkot","Government Secondary School No. 4, Rajkot","Government Secondary School No. 5, Rajkot","Government Secondary School No. 6, Rajkot","Government Secondary School No. 7, Rajkot","Government Secondary School No. 8, Rajkot","Government Secondary School No. 9, Rajkot","Government Secondary School, Surat","Government Secondary School, Vadodara","Government Secondary School, Bhavnagar","Government Secondary School, Jamnagar","Government Secondary School, Junagadh","Government Secondary School, Navsari","Government Secondary School, Bharuch","Government Secondary School, Surendranagar","Government Secondary School, Anand","Government Secondary School, Kheda","Government Secondary School, Panchmahal","Government Secondary School, Dahod","Government Secondary School, Mahisagar","Government Secondary School, Narmada","Government Secondary School, Tapi","Government Secondary School, Dang","Government Secondary School, Banaskantha","Government Secondary School, Sabarkantha","Government Secondary School, Aravalli","Government Secondary School, Ahmedabad Rural","Government Secondary School, Gandhinagar Rural"];
+var Haryana = ["Ambala","Bhiwani","Charkhi Dadri","Faridabad","Fatehabad","Gurugram","Hisar","Jhajjar","Jind","Kaithal","Karnal","Kurukshetra","Mahendragarh","Mewat","Palwal","Panchkula","Panipat","Rewari","Rohtak","Sirsa","Sonipat","Yamunanagar"];
+var HimachalPradesh = ["Bilaspur","Chamba","Hamirpur","Kangra","Kinnaur","Kullu","Lahaul Spiti","Mandi","Shimla","Sirmaur","Solan","Una"];
+var JammuKashmir = ["Government Model School, Jammu", "Government Girls High School, Jammu", "Government Boys High School, Jammu", "Government Primary School, Jammu", "Government Secondary School, Jammu", "Government Boys Higher Secondary School, Bahu Fort", "Government Girls Higher Secondary School, Gandhi Nagar", "Government Girls Higher Secondary School, Trikuta Nagar", "Government Girls Higher Secondary School, R.S. Pura", "Government Boys Higher Secondary School, R.S. Pura", "Government Girls Higher Secondary School, Bishnah", "Government Boys Higher Secondary School, Bishnah", "Government Girls Higher Secondary School, Akhnur", "Government Boys Higher Secondary School, Akhnur", "Government Boys Higher Secondary School, Kathua", "Government Girls Higher Secondary School, Kathua", "Government Boys Higher Secondary School, Samba", "Government Girls Higher Secondary School, Samba", "Government Boys Higher Secondary School, Udhampur", "Government Girls Higher Secondary School, Udhampur", "Government Higher Secondary School, Kothi Bagh", "Government Higher Secondary School, Rajbagh", "Government Higher Secondary School, Bemina", "Government Higher Secondary School, Amar Singh College", "Government Higher Secondary School, Islamia College", "Government Higher Secondary School, Tyndale Biscoe", "Government Higher Secondary School, Shaheen Bagh", "Government Higher Secondary School, Khanyar", "Government Higher Secondary School, Nowhatta", "Government Higher Secondary School, Rainawari", "Government Higher Secondary School, Habba Kadal", "Government Higher Secondary School, Zawoora", "Government Higher Secondary School, Pulwama", "Government Higher Secondary School, Anantnag", "Government Higher Secondary School, Shopian", "Government Higher Secondary School, Kulgam", "Government Higher Secondary School, Baramulla", "Government Higher Secondary School, Sopore", "Government Higher Secondary School, Kupwara", "Government Higher Secondary School, Handwara", "Government Higher Secondary School, Bandipora"];
+var Jharkhand = ["Bokaro","Chatra","Deoghar","Dhanbad","Dumka","East Singhbhum","Garhwa","Giridih","Godda","Gumla","Hazaribagh","Jamtara","Khunti","Koderma","Latehar","Lohardaga","Pakur","Palamu","Ramgarh","Ranchi","Sahebganj","Seraikela Kharsawan","Simdega","West Singhbhum"];
+var Karnataka=["Government Model High School, Bangalore","Government Girls High School, Mysore","Government High School, Dharwad","Government High School, Gulbarga","Government High School, Mangalore","Government High School, Hubballi","Government High School, Belagavi","Government High School, Bijapur","Government High School, Shivamogga","Government High School, Davangere","Government High School, Tumkur","Government High School, Chikkamagaluru","Government High School, Hassan","Government High School, Kodagu","Government Pre-University College, Bangalore","Government Pre-University College, Mysore","Government Pre-University College, Dharwad","Government Pre-University College, Gulbarga","Government Pre-University College, Mangalore","Government Pre-University College, Hubballi","Government Pre-University College, Belagavi","Government Pre-University College, Bijapur","Government Pre-University College, Shivamogga","Government Pre-University College, Davangere","Government Pre-University College, Tumkur","Government Pre-University College, Chikkamagaluru","Government Pre-University College, Hassan","Government Pre-University College, Kodagu","Jawahar Navodaya Vidyalaya, Bangalore","Jawahar Navodaya Vidyalaya, Mysore","Jawahar Navodaya Vidyalaya, Dharwad","Jawahar Navodaya Vidyalaya, Gulbarga","Jawahar Navodaya Vidyalaya, Mangalore","Jawahar Navodaya Vidyalaya, Hubballi","Jawahar Navodaya Vidyalaya, Belagavi","Jawahar Navodaya Vidyalaya, Bijapur","Jawahar Navodaya Vidyalaya, Shivamogga","Jawahar Navodaya Vidyalaya, Davangere","Jawahar Navodaya Vidyalaya, Tumkur","Jawahar Navodaya Vidyalaya, Chikkamagaluru","Jawahar Navodaya Vidyalaya, Hassan","Jawahar Navodaya Vidyalaya, Kodagu","Kendriya Vidyalaya, Bangalore","Kendriya Vidyalaya, Mysore","Kendriya Vidyalaya, Dharwad","Kendriya Vidyalaya, Gulbarga","Kendriya Vidyalaya, Mangalore","Kendriya Vidyalaya, Hubballi","Kendriya Vidyalaya, Belagavi","Kendriya Vidyalaya, Bijapur","Kendriya Vidyalaya, Shivamogga","Kendriya Vidyalaya, Davangere","Kendriya Vidyalaya, Tumkur","Kendriya Vidyalaya, Chikkamagaluru","Kendriya Vidyalaya, Hassan","Kendriya Vidyalaya, Kodagu"];
+var Kerala = ["Government Model Boys HSS, Attingal", "Government Girls HSS, Cottonhill", "Government VHSS, Thripunithura", "Government HSS, Aluva", "Government HSS, Kozhikode", "Government HSS, Kannur", "Government HSS, Thiruvananthapuram", "Government HSS, Kollam", "Government HSS, Kottayam", "Government HSS, Thrissur", "Government HSS, Palakkad", "Government HSS, Malappuram", "Government HSS, Wayanad", "Government HSS, Idukki", "Government HSS, Pathanamthitta", "Government Vocational HSS, Attingal", "Government Vocational HSS, Cottonhill", "Government Vocational HSS, Thripunithura", "Government Vocational HSS, Aluva", "Government Vocational HSS, Kozhikode", "Government Vocational HSS, Kannur", "Government Vocational HSS, Thiruvananthapuram", "Government Vocational HSS, Kollam", "Government Vocational HSS, Kottayam", "Government Vocational HSS, Thrissur", "Government Vocational HSS, Palakkad", "Government Vocational HSS, Malappuram", "Government Vocational HSS, Wayanad", "Government Vocational HSS, Idukki", "Government Vocational HSS, Pathanamthitta", "Government Model Upper Primary School, Attingal", "Government Girls Upper Primary School, Cottonhill", "Government Upper Primary School, Thripunithura", "Government Lower Primary School, Aluva", "Government Lower Primary School, Kozhikode", "Government Lower Primary School, Kannur", "Government Lower Primary School, Thiruvananthapuram", "Government Lower Primary School, Kollam", "Government Lower Primary School, Kottayam", "Government Lower Primary School, Thrissur", "Government Lower Primary School, Palakkad", "Government Lower Primary School, Malappuram", "Government Lower Primary School, Wayanad", "Government Lower Primary School, Idukki", "Government Lower Primary School, Pathanamthitta", "Government High School, Varkala", "Government High School, Neyyattinkara", "Government High School, Kottarakkara", "Government High School, Alappuzha", "Government High School, Changanassery"];
+var MadhyaPradesh = ["Agar Malwa","Alirajpur","Anuppur","Ashoknagar","Balaghat","Barwani","Betul","Bhind","Bhopal","Burhanpur","Chhatarpur","Chhindwara","Damoh","Datia","Dewas","Dhar","Dindori","Guna","Gwalior","Harda","Hoshangabad","Indore","Jabalpur","Jhabua","Katni","Khandwa","Khargone","Mandla","Mandsaur","Morena","Narsinghpur","Neemuch","Panna","Raisen","Rajgarh","Ratlam","Rewa","Sagar","Satna",
+"Sehore","Seoni","Shahdol","Shajapur","Sheopur","Shivpuri","Sidhi","Singrauli","Tikamgarh","Ujjain","Umaria","Vidisha"];
+var Maharashtra=["Government Model School, Mumbai","Government Girls High School, Mumbai","Government Boys High School, Mumbai","Government Primary School, Thane","Government Primary School, Pune","Government Secondary School, Nagpur","Government Secondary School, Nashik","Government Secondary School, Aurangabad","Government Secondary School, Kalyan","Government Secondary School, Dombivali","Government Secondary School, Mira Bhayandar","Government Secondary School, Bhiwandi","Government Secondary School, Ulhasnagar","Government Secondary School, Vasai","Government Secondary School, Virar","Government Secondary School, Navi Mumbai","Government Secondary School, Kolhapur","Government Secondary School, Sangli","Government Secondary School, Solapur","Government Secondary School, Jalgaon","Government Secondary School, Amravati","Government Secondary School, Ahmednagar","Government Secondary School, Beed","Government Secondary School, Latur","Government Secondary School, Osmanabad","Government Secondary School, Parbhani","Government Secondary School, Hingoli","Government Secondary School, Nanded","Government Secondary School, Washim","Government Secondary School, Yavatmal","Government Secondary School, Gondia","Government Secondary School, Bhandara","Government Secondary School, Gadchiroli","Government Secondary School, Chandrapur","Government Secondary School, Wardha","Government Secondary School, Buldhana","Government Secondary School, Jalna","Government Secondary School, Dhule","Government Secondary School, Nandurbar","Government Secondary School, Sindhudurg","Government Secondary School, Ratnagiri","Government Secondary School, Raigad","Government Secondary School, Thane Rural","Government Secondary School, Pune Rural","Government Secondary School, Nagpur Rural","Government Secondary School, Nashik Rural","Government Secondary School, Aurangabad Rural"];
+var Manipur = ["Bishnupur","Chandel","Churachandpur","Imphal East","Imphal West","Jiribam","Kakching","Kamjong","Kangpokpi","Noney","Pherzawl","Senapati","Tamenglong","Tengnoupal","Thoubal","Ukhrul"];
+var Meghalaya = ["East Garo Hills","East Jaintia Hills","East Khasi Hills","North Garo Hills","Ri Bhoi","South Garo Hills","South West Garo Hills","South West Khasi Hills","West Garo Hills","West Jaintia Hills","West Khasi Hills"];
+var Mizoram = ["Aizawl","Champhai","Kolasib","Lawngtlai","Lunglei","Mamit","Saiha","Serchhip","Aizawl","Champhai","Kolasib","Lawngtlai","Lunglei","Mamit","Saiha","Serchhip"];
+var Nagaland = ["Dimapur","Kiphire","Kohima","Longleng","Mokokchung","Mon","Peren","Phek","Tuensang","Wokha","Zunheboto"];
+var Odisha = ["Angul","Balangir","Balasore","Bargarh","Bhadrak","Boudh","Cuttack","Debagarh","Dhenkanal","Gajapati","Ganjam","Jagatsinghpur","Jajpur","Jharsuguda","Kalahandi","Kandhamal","Kendrapara","Kendujhar","Khordha","Koraput","Malkangiri","Mayurbhanj","Nabarangpur","Nayagarh","Nuapada","Puri","Rayagada","Sambalpur","Subarnapur","Sundergarh"];
+var Punjab = ["Amritsar","Barnala","Bathinda","Faridkot","Fatehgarh Sahib","Fazilka","Firozpur","Gurdaspur","Hoshiarpur","Jalandhar","Kapurthala","Ludhiana","Mansa","Moga","Mohali","Muktsar","Pathankot","Patiala","Rupnagar","Sangrur","Shaheed Bhagat Singh Nagar","Tarn Taran"];
+var Rajasthan = ["Government Model School, Jaipur", "Government Girls Higher Secondary School, Jaipur", "Government Boys Higher Secondary School, Jaipur", "Government Primary School, Ajmer", "Government Primary School, Jodhpur", "Government Secondary School, Bikaner", "Government Secondary School, Kota", "Government Secondary School, Udaipur", "Government Secondary School, Alwar", "Government Secondary School, Bharatpur", "Government Secondary School, Bhiwani", "Government Secondary School, Churu", "Government Secondary School, Dungarpur", "Government Secondary School, Hanumangarh", "Government Secondary School, Jalore", "Government Secondary School, Jhunjhunu", "Government Secondary School, Karauli", "Government Secondary School, Nagaur", "Government Secondary School, Pali", "Government Secondary School, Pratapgarh", "Government Secondary School, Rajsamand", "Government Secondary School, Sawai Madhopur", "Government Secondary School, Sikar", "Government Secondary School, Sirohi", "Government Secondary School, Tonk", "Government Secondary School, Banswara", "Government Secondary School, Barmer", "Government Secondary School, Bundi", "Government Secondary School, Chittorgarh", "Government Secondary School, Dausa", "Government Secondary School, Dholpur", "Government Secondary School, Ganganagar", "Government Secondary School, Jaipur Rural", "Government Secondary School, Ajmer Rural", "Government Secondary School, Jodhpur Rural", "Government Secondary School, Bikaner Rural", "Government Secondary School, Kota Rural", "Government Secondary School, Udaipur Rural", "Government Secondary School, Alwar Rural", "Government Secondary School, Bharatpur Rural", "Government Secondary School, Bhiwani Rural", "Government Secondary School, Churu Rural", "Government Secondary School, Dungarpur Rural", "Government Secondary School, Hanumangarh Rural", "Government Secondary School, Jalore Rural", "Government Secondary School, Jhunjhunu Rural", "Government Secondary School, Karauli Rural", "Government Secondary School, Nagaur Rural", "Government Secondary School, Pali Rural", "Government Secondary School, Pratapgarh Rural", "Government Secondary School, Rajsamand Rural", "Government Secondary School, Sawai Madhopur Rural", "Government Secondary School, Sikar Rural", "Government Secondary School, Sirohi Rural", "Government Secondary School, Tonk Rural"]
+var Sikkim = ["East Sikkim","North Sikkim","South Sikkim","West Sikkim"];
+var TamilNadu = ["Government Model Higher Secondary School, Chennai", "Government Girls Higher Secondary School, Madurai", "Government Higher Secondary School, Tiruchirappalli", "Government Higher Secondary School, Thanjavur", "Government Higher Secondary School, Coimbatore", "Government Higher Secondary School, Salem", "Government Higher Secondary School, Vellore", "Government Higher Secondary School, Tirunelveli", "Government Higher Secondary School, Erode", "Government Higher Secondary School, Dindigul", "Government Higher Secondary School, Thoothukudi", "Government Higher Secondary School, Cuddalore", "Government Higher Secondary School, Kancheepuram", "Government Higher Secondary School, Thiruvannamalai", "Government Higher Secondary School, Villupuram", "Government Higher Secondary School, Nagapattinam", "Government Higher Secondary School, Ramanathapuram", "Government Higher Secondary School, Sivagangai", "Government Higher Secondary School, Pudukkottai", "Government Higher Secondary School, Karur", "Government Higher Secondary School, Perambalur", "Government Higher Secondary School, Ariyalur", "Government Higher Secondary School, Tenkasi", "Government Higher Secondary School, Virudhunagar", "Government Higher Secondary School, Theni", "Government Higher Secondary School, Krishnagiri", "Government Higher Secondary School, Dharmapuri", "Government Higher Secondary School, Tirupattur", "Government Higher Secondary School, Nilgiris", "Government Higher Secondary School, Tiruvallur", "Government Higher Secondary School, Kanchipuram", "Government Higher Secondary School, Thiruvallur (North)", "Government Higher Secondary School, Thiruvallur (South)", "Government Higher Secondary School, Thiruvallur (Central)", "Government Higher Secondary School, Thiruvallur (East)", "Government Higher Secondary School, Thiruvallur (West)", "Government Higher Secondary School, Thiruvallur (Rural)", "Government Higher Secondary School, Thiruvallur (Urban)", "Government Higher Secondary School, Thiruvallur (Aided)", "Government Higher Secondary School, Thiruvallur (Central Aided)", "Government Higher Secondary School, Thiruvallur (East Aided)", "Government Higher Secondary School, Thiruvallur (West Aided)", "Government Higher Secondary School, Thiruvallur (Rural Aided)", "Government Higher Secondary School, Thiruvallur (Urban Aided)"];
+var Telangana = ["Government High School, Amberpet, Hyderabad", "Government High School, Ameerpet, Hyderabad", "Government High School, Banjara Hills, Hyderabad", "Government High School, Begumpet, Hyderabad", "Government High School, Dilsukhnagar, Hyderabad", "Government High School, Himayatnagar, Hyderabad", "Government High School, LB Nagar, Hyderabad", "Government High School, Malakpet, Hyderabad", "Government High School, Nizampet, Hyderabad", "Government High School, Ramanthapur, Hyderabad", "Government High School, Secunderabad", "Government High School, Uppal, Hyderabad", "Government High School, Warangal", "Government High School, Karimnagar", "Government High School, Nizamabad", "Government High School, Khammam", "Government High School, Mahabubnagar", "Government High School, Nalgonda", "Government High School, Adilabad", "Government High School, Medak", "Government High School, Suryapet", "Government High School, Siddipet", "Government High School, Komaram Bheem Asifabad", "Government High School, Rajanna Sircilla", "Government High School, Jangaon", "Government High School, Mulugu", "Government High School, Narayanpet", "Government High School, Hanamkonda", "Government High School, Yadadri Bhuvanagiri", "Government High School, Vikarabad", "Government High School, Rangareddy", "Government High School, Kamareddy", "Government High School, Peddapalli", "Government High School, Jagtial", "Government High School, Mancherial"];
+var Tripura = ["Shishu Bihar High School", "Umakanta Academy English Medium School", "Henry Derozio Academy", "Dr. B.R Ambedkar English Model High School", "Khumpui Academy English Medium School", "Sukanta Academy English Medium School", "Kshudiram Basu English Medium School", "Bhagat Singh Hindi (English Medium) School", "Bishalgarh English Medium School", "Sonamura English Medium School", "Melaghar English Medium High School", "Udaipur English Medium H.S. School", "Amarpur English Medium HS School", "Karbook English Medium Model School", "Belonia Govt. English Medium HS School", "Sabroom Eng. Medium", "Teliamura English Medium HS School", "Khowai Govt. Eng. Medium", "Kamalpur Govt. Eng. Medium H.S. School", "Chailengta Govt. Eng. Medium", "Ambassa Eng. Med. Model School", "Govt. Model School, Agartala", "Govt. Girls Higher Secondary School, Agartala", "Govt. Boys Higher Secondary School, Agartala", "Govt. Primary School, Agartala", "Govt. Primary School, Khowai", "Govt. Secondary School, Belonia", "Govt. Secondary School, Sonamura", "Govt. Secondary School, Udaipur", "Govt. Secondary School, Amarpur", "Govt. Secondary School, Karbook", "Govt. Secondary School, Sabroom", "Govt. Secondary School, Teliamura", "Govt. Secondary School, Khowai", "Govt. Secondary School, Kamalpur", "Govt. Secondary School, Chailengta", "Govt. Secondary School, Ambassa", "Govt. Higher Secondary School, Sonamura", "Govt. Higher Secondary School, Udaipur", "Govt. Higher Secondary School, Amarpur", "Govt. Higher Secondary School, Karbook", "Govt. Higher Secondary School, Sabroom", "Govt. Higher Secondary School, Teliamura", "Govt. Higher Secondary School, Khowai", "Govt. Higher Secondary School, Kamalpur", "Govt. Higher Secondary School, Chailengta", "Govt. Higher Secondary School, Ambassa", "Govt. Higher Secondary School, Manu Bazar", "Govt. Higher Secondary School, Twimadhu", "Govt. Higher Secondary School, Kamalpur Girls"]
+var UttarPradesh=["Government Girls' Inter College, Agra","Government Boys' Inter College, Agra","St. John's College, Agra","Government Inter College, Aligarh","Government Girls' Inter College, Aligarh","Muslim University Inter College, Aligarh","Government Inter College, Allahabad","Government Girls' Inter College, Allahabad","St. Joseph's College, Allahabad","Government Inter College, Ambedkar Nagar","Government Girls' Inter College, Ambedkar Nagar","Government Inter College, Amethi","Government Girls' Inter College, Amethi","Government Inter College, Amroha","Government Girls' Inter College, Amroha","Government Inter College, Auraiya","Government Girls' Inter College, Auraiya","Government Inter College, Ayodhya","Government Girls' Inter College, Ayodhya","Government Inter College, Azamgarh","Government Girls' Inter College, Azamgarh","Government Inter College, Badaun","Government Girls' Inter College, Badaun","Government Inter College, Baghpat","Government Girls' Inter College, Baghpat","Government Inter College, Bahraich","Government Girls' Inter College, Bahraich","Government Inter College, Balia","Government Girls' Inter College, Balia","Government Inter College, Balrampur","Government Girls' Inter College, Balrampur","Government Inter College, Banda","Government Girls' Inter College, Banda","Government Inter College, Barabanki","Government Girls' Inter College, Barabanki","Government Inter College, Bareilly","Government Girls' Inter College, Bareilly","Government Inter College, Basti","Government Girls' Inter College, Basti","Government Inter College, Bhadohi","Government Girls' Inter College, Bhadohi","Government Inter College, Bijnor","Government Girls' Inter College, Bijnor","Government Inter College, Bulandshahr","Government Girls' Inter College, Bulandshahr","Government Inter College, Chandauli","Government Girls' Inter College, Chandauli","Government Inter College, Chitrakoot","Government Girls' Inter College, Chitrakoot","Government Inter College, Deoria","Government Girls' Inter College, Deoria","Government Inter College, Etah","Government Girls' Inter College, Etah","Government Inter College, Etawah","Government Girls' Inter College, Etawah","Government Inter College, Faizabad","Government Girls' Inter College, Faizabad","Government Inter College, Farrukhabad","Government Girls' Inter College, Farrukhabad","Government Inter College, Fatehpur","Government Girls' Inter College, Fatehpur"];
+var Uttarakhand  = ["Almora","Bageshwar","Chamoli","Champawat","Dehradun","Haridwar","Nainital","Pauri","Pithoragarh","Rudraprayag","Tehri","Udham Singh Nagar","Uttarkashi"];
+var WestBengal =["Ballygunge Government High School, Kolkata","Barrackpore Government High School, Kolkata","Bidhannagar Municipal School, Kolkata","Hare School, Kolkata","Hindu School, Kolkata","Presidency Collegiate School, Kolkata","Scottish Church Collegiate School, Kolkata","St. George's Collegiate School, Kolkata","St. James' School, Kolkata","St. Stephen's Boys' School, Kolkata","Tantia High School, Kolkata","Barasat Mahatma Gandhi Memorial High School, Barasat","Barasat Peary Charan Sarkar Government High School, Barasat","Bongaon Government High School, Bongaon","Dumdum Motijheel High School, Dumdum","Kamarhati Government High School, Kamarhati","Naihati Government High School, Naihati","Rajarhat Government High School, Rajarhat","Titagarh Government Girls High School, Titagarh","Alipore Government High School, Alipore","Baruipur Government High School, Baruipur","Diamond Harbour Government High School, Diamond Harbour","Jaynagar Majilpur Government High School, Jaynagar Majilpur","Kakdwip Government High School, Kakdwip","Sonarpur Government High School, Sonarpur","Tollygunge Government High School, Tollygunge","Belur Math High School, Howrah","Howrah Government High School, Howrah","Salkia Government High School, Salkia","Uluberia Government High School, Uluberia","Arambagh Government High School, Arambagh","Chinsurah Government High School, Chinsurah","Hooghly Government High School, Hooghly","Serampore Government High School, Serampore","Asansol Government High School, Asansol","Burdwan Government High School, Burdwan","Durgapur Government High School, Durgapur","Suri Government High School, Suri","English Bazar Government High School, English Bazar","Malda Government High School, Malda","Old Malda Government High School, Old Malda","Berhampore Government High School, Berhampore","Jangipur Government High School, Jangipur","Murshidabad Government High School, Murshidabad","Kalyani Government High School, Kalyani","Krishnagar Government High School, Krishnagar","Nadia Government High School, Nadia","Coochbehar Government High School, Cooch Behar","Islampur Government High School, Islampur","Balurghat Government High School, Balurghat","Raiganj Government High School, Raiganj","Purulia Government High School, Purulia","Raghunathpur Government High School, Raghunathpur","Bankura Zilla School, Bankura","Vishnupur Government High School, Vishnupur","Midnapore Collegiate School, Midnapore","West Midnapore Government High School, West Midnapore","Haldia Government High School, Haldia","Tamluk Government High School, Tamluk"];
+var AndamanNicobar = ["Nicobar","North Middle Andaman","South Andaman"];
+var Chandigarh = ["Chandigarh"];
+var DadraHaveli = ["Dadra Nagar Haveli"];
+var DamanDiu = ["Daman","Diu"];
+var Delhi = ["Government Boys Senior Secondary School, Rouse Avenue", "Government Girls Senior Secondary School, Rouse Avenue", "Government Boys Senior Secondary School, Moti Bagh", "Government Girls Senior Secondary School, Moti Bagh", "Government Boys Senior Secondary School, Lajpat Nagar", "Government Girls Senior Secondary School, Lajpat Nagar", "Government Boys Senior Secondary School, Janakpuri", "Government Girls Senior Secondary School, Janakpuri", "Government Boys Senior Secondary School, Vikaspuri", "Government Girls Senior Secondary School, Vikaspuri", "Government Boys Senior Secondary School, Pitampura", "Government Girls Senior Secondary School, Pitampura", "Government Boys Senior Secondary School, Rohini", "Government Girls Senior Secondary School, Rohini", "Government Boys Senior Secondary School, Dwarka", "Government Girls Senior Secondary School, Dwarka", "Government Boys Senior Secondary School, East of Kailash", "Government Girls Senior Secondary School, East of Kailash", "Government Boys Senior Secondary School, Greater Kailash", "Government Girls Senior Secondary School, Greater Kailash", "Government Boys Senior Secondary School, Hauz Khas", "Government Girls Senior Secondary School, Hauz Khas", "Government Boys Senior Secondary School, Saket", "Government Girls Senior Secondary School, Saket", "Government Boys Senior Secondary School, Vasant Vihar", "Government Girls Senior Secondary School, Vasant Vihar", "Government Boys Senior Secondary School, Chanakyapuri", "Government Girls Senior Secondary School, Chanakyapuri", "Government Boys Senior Secondary School, Pandara Road", "Government Girls Senior Secondary School, Pandara Road", "Government Boys Senior Secondary School, Gole Market", "Government Girls Senior Secondary School, Gole Market", "Government Boys Senior Secondary School, Paharganj", "Government Girls Senior Secondary School, Paharganj", "Government Boys Senior Secondary School, Chandni Chowk", "Government Girls Senior Secondary School, Chandni Chowk", "Government Boys Senior Secondary School, Karol Bagh", "Government Girls Senior Secondary School, Karol Bagh", "Government Boys Senior Secondary School, Rajouri Garden", "Government Girls Senior Secondary School, Rajouri Garden", "Government Boys Senior Secondary School, Tilak Nagar", "Government Girls Senior Secondary School, Tilak Nagar", "Government Boys Senior Secondary School, Naraina Vihar", "Government Girls Senior Secondary School, Naraina Vihar", "Government Boys Senior Secondary School, Paschim Vihar", "Government Girls Senior Secondary School, Paschim Vihar", "Government Boys Senior Secondary School, Punjabi Bagh", "Government Girls Senior Secondary School, Punjabi Bagh", "Government Boys Senior Secondary School, Ashok Vihar", "Government Girls Senior Secondary School, Ashok Vihar"];var Lakshadweep = ["Lakshadweep"];
+var Puducherry = ["Karaikal","Mahe","Puducherry","Yanam"];
+
+
+$("#inputState").change(function(){
+  var StateSelected = $(this).val();
+  var optionsList;
+  var htmlString = "";
+
+  switch (StateSelected) {
+    case "Andra Pradesh":
+        optionsList = AndraPradesh;
+        break;
+    case "Arunachal Pradesh":
+        optionsList = ArunachalPradesh;
+        break;
+    case "Assam":
+        optionsList = Assam;
+        break;
+    case "Bihar":
+        optionsList = Bihar;
+        break;
+    case "Chhattisgarh":
+        optionsList = Chhattisgarh;
+        break;
+    case "Goa":
+        optionsList = Goa;
+        break;
+    case  "Gujarat":
+        optionsList = Gujarat;
+        break;
+    case "Haryana":
+        optionsList = Haryana;
+        break;
+    case "Himachal Pradesh":
+        optionsList = HimachalPradesh;
+        break;
+    case "Jammu and Kashmir":
+        optionsList = JammuKashmir;
+        break;
+    case "Jharkhand":
+        optionsList = Jharkhand;
+        break;
+    case  "Karnataka":
+        optionsList = Karnataka;
+        break;
+    case "Kerala":
+        optionsList = Kerala;
+        break;
+    case  "Madya Pradesh":
+        optionsList = MadhyaPradesh;
+        break;
+    case "Maharashtra":
+        optionsList = Maharashtra;
+        break;
+    case  "Manipur":
+        optionsList = Manipur;
+        break;
+    case "Meghalaya":
+        optionsList = Meghalaya ;
+        break;
+    case  "Mizoram":
+        optionsList = Mizoram;
+        break;
+    case "Nagaland":
+        optionsList = Nagaland;
+        break;
+    case  "Orissa":
+        optionsList = Orissa;
+        break;
+    case "Punjab":
+        optionsList = Punjab;
+        break;
+    case  "Rajasthan":
+        optionsList = Rajasthan;
+        break;
+    case "Sikkim":
+        optionsList = Sikkim;
+        break;
+    case  "Tamil Nadu":
+        optionsList = TamilNadu;
+        break;
+    case  "Telangana":
+        optionsList = Telangana;
+        break;
+    case "Tripura":
+        optionsList = Tripura ;
+        break;
+    case  "Uttaranchal":
+        optionsList = Uttaranchal;
+        break;
+    case  "Uttar Pradesh":
+        optionsList = UttarPradesh;
+        break;
+    case "West Bengal":
+        optionsList = WestBengal;
+        break;
+    case  "Andaman and Nicobar Islands":
+        optionsList = AndamanNicobar;
+        break;
+    case "Chandigarh":
+        optionsList = Chandigarh;
+        break;
+    case  "Dadar and Nagar Haveli":
+        optionsList = DadraHaveli;
+        break;
+    case "Daman and Diu":
+        optionsList = DamanDiu;
+        break;
+    case  "Delhi":
+        optionsList = Delhi;
+        break;
+    case "Lakshadeep":
+        optionsList = Lakshadeep ;
+        break;
+    case  "Pondicherry":
+        optionsList = Pondicherry;
+        break;
+}
+
+
+  for(var i = 0; i < optionsList.length; i++){
+    htmlString = htmlString+"<option value='"+ optionsList[i] +"'>"+ optionsList[i] +"</option>";
+  }
+  $("#inputDistrict").html(htmlString);
+
+});
+
     </script>
 
 <footer class="bg-dark text-center fw-bold text-white">
