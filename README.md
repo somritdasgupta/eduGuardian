@@ -2,6 +2,8 @@
 
 ---
 
+
+
 ## Overview
 
 When we talk about education in India, it's not just about numbers and statistics; it's about the future of our country, the dreams of millions of children, and the promise of a brighter tomorrow. But the reality is, we've been grappling with a significant issue - high dropout rates. Poverty, social factors, and economic challenges have forced many young minds to step away from the path of education. It's a problem that's been haunting our educational landscape for far too long.
@@ -10,6 +12,7 @@ When we talk about education in India, it's not just about numbers and statistic
 
 
 https://github.com/theayushmajumdar/eduGuardian/assets/111861889/6dbf196b-23ae-4ced-8e22-1b1c8d6c4eb8
+
 
 ### Key Features
 
