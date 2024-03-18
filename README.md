@@ -2,11 +2,17 @@
 
 ---
 
+
+
 ## Overview
 
 When we talk about education in India, it's not just about numbers and statistics; it's about the future of our country, the dreams of millions of children, and the promise of a brighter tomorrow. But the reality is, we've been grappling with a significant issue - high dropout rates. Poverty, social factors, and economic challenges have forced many young minds to step away from the path of education. It's a problem that's been haunting our educational landscape for far too long.
 
 **eduGuardian** is here to change that. It's not just another piece of software; it's a game-changer, a real revolution in the making. Imagine a future where no child is left behind, where every student gets a fair shot at education, regardless of their background.
+
+
+https://github.com/somritdasgupta/eduGuardian/assets/111861889/bde7caf7-44b2-4a7b-a580-7b3de5c756a4
+
 
 ### Key Features
 
@@ -99,4 +105,7 @@ php -S localhost:port
 This project is private and confidential. Unauthorized access, copying, or distribution is strictly prohibited.
 
 All rights reserved.
+
+
+
 
