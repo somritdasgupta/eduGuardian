@@ -8,6 +8,9 @@ When we talk about education in India, it's not just about numbers and statistic
 
 **eduGuardian** is here to change that. It's not just another piece of software; it's a game-changer, a real revolution in the making. Imagine a future where no child is left behind, where every student gets a fair shot at education, regardless of their background.
 
+
+https://github.com/theayushmajumdar/eduGuardian/assets/111861889/6dbf196b-23ae-4ced-8e22-1b1c8d6c4eb8
+
 ### Key Features
 
 - Identifies students at risk of dropping out.
@@ -99,4 +102,7 @@ php -S localhost:port
 This project is private and confidential. Unauthorized access, copying, or distribution is strictly prohibited.
 
 All rights reserved.
+
+
+
 
