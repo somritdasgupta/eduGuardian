@@ -11,7 +11,7 @@ When we talk about education in India, it's not just about numbers and statistic
 **eduGuardian** is here to change that. It's not just another piece of software; it's a game-changer, a real revolution in the making. Imagine a future where no child is left behind, where every student gets a fair shot at education, regardless of their background.
 
 
-https://github.com/somritdasgupta/eduGuardian/assets/111861889/bde7caf7-44b2-4a7b-a580-7b3de5c756a4
+https://github.com/theayushmajumdar/eduGuardian/assets/111861889/6dbf196b-23ae-4ced-8e22-1b1c8d6c4eb8
 
 
 ### Key Features
